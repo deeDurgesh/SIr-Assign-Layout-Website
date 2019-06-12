@@ -1,0 +1,203 @@
+.main-container{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.center-container{
+    width: 1366px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.four-in{
+    display: flex;
+    flex-direction: center;
+    height: 100%;
+    width: 1000px;
+    box-sizing: border-box;
+}
+.address,.timming,.dialer{
+    padding-left: 20px;
+}
+
+.address p,.timming p,.dialer p{
+    font-size: 20px;
+    color: white;
+
+}
+.address span,.timming span, .dialer span{
+    color: black;
+}
+.dropdown select{
+    width: 90px;
+    height: 20px;
+    margin-top: 20px;
+}
+.dropdown{
+    background-color: black;
+}
+.map-img,.phone,.time{
+    background-color: white;
+}
+.map-img img,.phone img,.time img{
+    width: 20px;
+    height: 20px;
+}
+.Appointment{
+    height: 100%;
+    width: 170px;
+    background-color: chartreuse;
+    color: chartreuse; 
+    padding: 20px;
+}
+.Appointment a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.second-header{
+    width: 100%;
+    height: 80px;
+   display: flex;
+   justify-content: center;
+   background-color: white;
+}
+.center-container2{
+    width: 1366px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+.second-div1{
+    width: 110px;
+    height: 40px;
+    border: 2px solid black;
+}
+.second-div1 img{
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+
+}
+.second-div2{
+    display: flex;
+    justify-content: center;
+}
+.second-div2 div a{
+    font-size: 25px;
+    color: black;
+    padding: 5px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.second-div3{
+    display: flex;
+    justify-content: space-between;
+
+}
+.second-div3 div img{
+    height: 20px;
+    width: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+
+.body-background{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url('images/creative-idea-wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content{
+    height: 300px;
+    width: 400px;
+    position: relative;
+    top: 50px;
+    padding: 20px;
+}
+.paragraph p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.paragraph h1{
+    color: whitesmoke;
+    font-size: 40px;
+}
+.content span a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+.read-us{
+    background-color:chartreuse;
+    height: 25px;
+    width: 90px;
+    display: flex;
+    justify-content: row;
+    padding: 10px;
+    position: relative;
+}
+.contact-us{
+    background-color: black;
+    height: 25px;
+    width: 150px;
+    display: flex;
+    justify-content: row;
+    padding: 10px;
+    position: relative;
+}
+.button{
+    height: 100%;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.next img{
+    height: 20px;
+    width: 20px;
+}
+.body-content{
+    height: 342px;
+    width: 100%;
+    position: relative; 
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.center-container4{
+    height: 300px;
+    width:  1366px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 20px;
+}
+.roadmap img,.web img,.result img,.blog img{
+    width: 20px;
+    height: 20px;
+}
+.center-container4{
+    font-size: 20px;
+}
+
