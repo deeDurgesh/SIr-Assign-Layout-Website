@@ -87,11 +87,13 @@
     width: 110px;
     height: 40px;
     border: 2px solid #464141;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .second-div1 img{
-    width: 100px;
-    height: 30px;
-    padding: 5px;
+    width: 80px;
+    height: 20px;
 
 }
 .second-div2{
@@ -99,7 +101,7 @@
     justify-content: center;
 }
 .second-div2 div a{
-    font-size: 25px;
+    font-size: 20px;
     color: #464141;
     padding: 5px;
     margin-left: 10px;
@@ -121,35 +123,44 @@
 .body-background{
     height: 400px;
     width: 100%;
-    display: flex;
-    justify-content: center;
     background-image: url('images/creative-idea-wallpaper.jpg');
     background-repeat: no-repeat;
     background-size: cover;  
+    position: relative;
 }
 .dull{
     height: 100%;
-    width: 100%;
+    width:  100%;
     background-color: rgba(0, 0, 0, .5);
+    position: relative;
     display: flex;
     justify-content: center;
 }
-.content{
-    height: 300px;
-    width: 500px;
+.center-container3{
+    height: 100%;
+    width: 1366px;
     position: relative;
-    top: 50px;
-    padding: 20px;
+    display: flex;
+    justify-content: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    height: 250px;
+    width: 500px;
 }
 .paragraph p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: darkgray;
     font-size: 20px;
+    font-weight: 900;
+    text-align: right;
 }
 .paragraph h1{
     color: darkgray;
     font-size: 50px;
-    padding-left: 0px;
+    text-align: right;
 }
 .content span a{
     text-decoration: none;
@@ -158,30 +169,34 @@
 }
 .read-us{
     background-color: #00FF7F;
-    height: 25px;
-    width: 90px;
-    display: flex;
-    justify-content: row;
-    padding: 10px;
+    height: 40px;
+    width:  170px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 30px;
 }
 .contact-us{
     background-color: #464141;
-    height: 25px;
-    width: 150px;
+    height: 40px;
+    width: 170px;
     display: flex;
-    justify-content: row;
-    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     position: relative;
+    margin-right: 10px;
 }
 .button{
-    height: 100%;
-    width: 300px;
+    height: 60px;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    padding-top: 20px;
+    justify-content: flex-end;
+    align-items: center;
 }
-.next img{
+.next img, .next1 img{
     height: 20px;
     width: 20px;
     
