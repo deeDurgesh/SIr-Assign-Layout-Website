@@ -1,11 +1,11 @@
 .main-container{
     width: 100%;
     height: 100%;
-    background-color: black;
+    background-color: #464141;
 }
 .header{
     width: 100%;
-    height: 60px;
+    height: 40px;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -21,8 +21,9 @@
 .four-in{
     display: flex;
     flex-direction: center;
+    align-items: center;
     height: 100%;
-    width: 750px;;
+    width: 700px;;
     box-sizing: border-box;
 }
 .address,.timming,.dialer{
@@ -31,22 +32,21 @@
 
 .address p,.timming p,.dialer p{
     font-size: 20px;
-    color: white;
+    color: gainsboro;
 
 }
 .address span,.timming span, .dialer span{
-    color: black;
-}
-.dropdown select{
-    width: 90px;
-    height: 20px;
-    margin-top: 20px;
+    color:#464141;
 }
 .dropdown{
+    width: 90px;
+    height: 20px;
+    color: gainsboro;
     background-color: black;
+    border: 0;
 }
 .map-img,.phone,.time{
-    background-color: white;
+    background-color: gainsboro;
 }
 .map-img img,.phone img,.time img{
     width: 20px;
@@ -55,8 +55,7 @@
 .Appointment{
     height: 100%;
     width: 170px;
-    background-color: chartreuse;
-    color: chartreuse; 
+    background-color: #00FF7F;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,12 +81,12 @@
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
-    padding-top: 10px;
+    align-items: center;
 }
 .second-div1{
     width: 110px;
     height: 40px;
-    border: 2px solid black;
+    border: 2px solid #464141;
 }
 .second-div1 img{
     width: 100px;
@@ -101,7 +100,7 @@
 }
 .second-div2 div a{
     font-size: 25px;
-    color: black;
+    color: #464141;
     padding: 5px;
     margin-left: 10px;
     text-decoration: none;
@@ -126,31 +125,39 @@
     justify-content: center;
     background-image: url('images/creative-idea-wallpaper.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;  
+}
+.dull{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
 }
 .content{
     height: 300px;
-    width: 400px;
+    width: 500px;
     position: relative;
     top: 50px;
     padding: 20px;
 }
 .paragraph p{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: whitesmoke;
+    color: darkgray;
     font-size: 20px;
 }
 .paragraph h1{
-    color: whitesmoke;
-    font-size: 40px;
+    color: darkgray;
+    font-size: 50px;
+    padding-left: 0px;
 }
 .content span a{
     text-decoration: none;
-    color:white;
+    color: white;
     font-size: 20px;
 }
 .read-us{
-    background-color:chartreuse;
+    background-color: #00FF7F;
     height: 25px;
     width: 90px;
     display: flex;
@@ -159,7 +166,7 @@
     position: relative;
 }
 .contact-us{
-    background-color: black;
+    background-color: #464141;
     height: 25px;
     width: 150px;
     display: flex;
@@ -177,6 +184,7 @@
 .next img{
     height: 20px;
     width: 20px;
+    
 }
 .body-content{
     height: 342px;
@@ -199,7 +207,8 @@
     width: 20px;
     height: 20px;
 }
-.center-container4{
+.center-container4 p{
     font-size: 20px;
+    color: #464141;
 }
 
